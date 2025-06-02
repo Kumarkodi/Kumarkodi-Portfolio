@@ -17,7 +17,7 @@ import deepseekLogo from './assets/tech_logo/deepseek-ai-logo.png';
 import perplexityLogo from './assets/tech_logo/perplexity-logo.png';
 
 // Experience Section Logo's
-import tamLogo from './assets/company_logo/tamlogo.jpeg';
+import tamLogo from './assets/company_logo/tamLogo.jpeg';
 
 // Education Section Logo's
 import siws_logo from './assets/education_logo/siws_logo.png';
