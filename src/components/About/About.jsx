@@ -37,9 +37,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a Fresher graduate learning frontend development. Currently upskilling myself
-            with tech such as Next.js for front end and node.js, express.js, mongodb for backend. 
-            As I want to specialize in MERN stack and other modern technologies to create seamless user experience and efficient solutions.
+            I am a Fresher graduate learning frontend development. Currently upskilling myself with tech such as Next.js for front end and node.js, express.js, mongodb for backend. As I want to specialize in MERN stack and other modern technologies to create seamless user experience and efficient solutions.
           </p>
           {/* Resume Button */}
           <a
