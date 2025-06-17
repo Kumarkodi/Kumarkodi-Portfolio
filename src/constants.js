@@ -11,7 +11,10 @@ import vscodeLogo from './assets/tech_logo/vscode.png';
 
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
+import loveable from './assets/tech_logo/lovable.png';
+// AI Tools Logo's
 import githubCopilotLogo from './assets/tech_logo/github-copilot.png';
+import cursor from './assets/tech_logo/cursor.png';
 import chatgptLogo from './assets/tech_logo/chatgpt-logo.png';
 import deepseekLogo from './assets/tech_logo/deepseek-ai-logo.png';
 import perplexityLogo from './assets/tech_logo/perplexity-logo.png';
@@ -25,6 +28,7 @@ import Muktangan_logo from './assets/education_logo/Muktangan_logo.jpg';
 import vidyalankarLogo from './assets/education_logo/vidyalankarLogo.png';
 
 // Project Section Logo's
+import Flamingo from './assets/work_logo/Flamingo.png';
 import hoodieLogo from './assets/work_logo/hoodieLogo.png';
 import HLogo from './assets/work_logo/HLogo.png';
 import FCLogo from './assets/work_logo/FCLogo.png';
@@ -68,6 +72,8 @@ export const SkillsInfo = [
       { name: 'ChatGPT', logo: chatgptLogo },
       { name: 'Perplexity', logo: perplexityLogo },
       { name: 'Deepseek', logo: deepseekLogo },
+      { name: 'loveable', logo: loveable },
+      { name: 'Cursor', logo: cursor}
     ],
   },
 ];
@@ -130,6 +136,15 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "Flamingo infinite | Digital Marketing Agency",
+      description:"A vibrant digital marketing agency empowering brands with data-driven strategy, bold storytelling, and full-stack web solutions. Flamingo Infinite blends creative vision with measurable performance to help businesses thrive in the digital era",
+      image: Flamingo,
+      tags: ["REACT","HTML", "CSS", "JAVASCRIPT"],
+      github: "https://github.com/Kumarkodi/Flamingo",
+      webapp: "https://flamingo-infinte.vercel.app/",
+    },
+    {
+      id: 1,
       title: "Hoodie Landing Page",
       description:
         "A modern, visually appealing landing page for a hoodie e-commerce store, built using HTML and CSS.",
@@ -139,7 +154,7 @@ export const SkillsInfo = [
       webapp: "https://kumarkodi.github.io/Hoodie_Landing_Page/",
     },
     {
-      id: 1,
+      id: 2,
       title: "IMG Background Remover",
       description:
         "A simple web application for removing the background from images using the bg.remove API. Built with pure HTML, CSS, and JavaScript — no frameworks required!",
@@ -149,7 +164,7 @@ export const SkillsInfo = [
       webapp: "https://img-background-remover-ten.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Hangman Game",
       description:
         "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
@@ -159,7 +174,7 @@ export const SkillsInfo = [
       webapp: "https://kumarkodi.github.io/HANGMAN-GAME/",
     },
     {
-      id: 3,
+      id: 4,
       title: "The B@rber",
       description:
         "The B@rber is a simple and elegant web project showcasing the landing page of a barber shop. It features sections like Experience, Services, About, and a social media follow area, all styled for a clean and professional look.",
@@ -169,7 +184,7 @@ export const SkillsInfo = [
       webapp: "https://the-b-rber.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       title: "Flip The Card",
       description:
         "A simple interactive web project that demonstrates a \"flip card\" effect using only HTML, CSS, and JavaScript. This project is perfect for beginners looking to improve their front-end skills or for anyone who wants to add a stylish flip card component to their website.",
@@ -179,7 +194,7 @@ export const SkillsInfo = [
       webapp: "https://flip-the-card.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       title: "WordWizard",
       description:
         "A simple interactive web project that helps users improve their vocabulary and word usage through engaging activities and challenges.",
